@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+    body,html{
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+#test{
+  background-color: #ff0000;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+ left: 10px;
+ top: 10px;
+
+}
+  </style>
+
+  <title>Stuiteren</title>
+</head>
+
+<body>
+  <div id="test">
+test
+</div>
+  
+  <script>
+"use strict";
+var sprite={};
+sprite.x=150;
+sprite.dx=5;
+sprite.y=10;
+sprite.dy=1;
+sprite.dom=document.getElementById("test");
+
+var viewport={};
+viewport.w=window.innerWidth;
+viewport.h=window.innerHeight;
+loop();
+
+function loop()
+{
+  sprite.dom.style.left=sprite.x+"px";
+  sprite.dom.style.top=sprite.y+"px";
+  sprite.x=sprite.x+sprite.dx;
+  if(sprite.x>(viewport.w-100))
+  {
+	  sprite.dx=-Math.abs(sprite.dx);
+ 	 sprite.dx*=0.9;
+  }
+  if(sprite.x<0)
+  {
+	  sprite.dx=Math.abs(sprite.dx);
+ 	 sprite.dx*=0.9;
+  }
+  sprite.y=sprite.y+sprite.dy;
+  if(sprite.y>(viewport.h-100))
+  {
+  	sprite.y=(viewport.h-100);
+	  sprite.dy=-Math.abs(sprite.dy);
+ 	 sprite.dy*=0.9;
+  }
+  if(sprite.y<0)
+  {
+	  sprite.dy=Math.abs(sprite.dy);
+ 	 sprite.dy*=0.9;
+  }
+  sprite.dy+=0.1;
+  sprite.dy*=0.999;
+  sprite.dx*=0.999;
+  window.requestAnimationFrame(loop);
+}
+
+</script>
+
+</body>
+
+</html>
+
