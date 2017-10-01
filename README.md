@@ -4,8 +4,8 @@ In deze tutorial schrijf je langzaam je eigen (versimpelde) gameEngine en leer j
 Daarna kun je aan de slag met de MakingGames Game Engine, waarmee je je eigen webgames kunt maken en publiceren.
 
 ## Voor wie?
-Feitelijk voor iedereen, die een game wil maken en Nederlands kan lezen. Ik zou zeggen vanaf 7 jaar, uitzonderingen daargelaten.
- - Het kan handig zijn om eerst de javascript cursus van CodeAcademy.org te doen, als je geen Engels spreekt, probeer dan echt alle oefeningen een voor een te doen.
+Feitelijk voor iedereen, die een game wil maken en Nederlands kan lezen en een flinke portie doorzettingsvermogen. Ik zou zeggen vanaf 12 jaar, uitzonderingen daargelaten. Ik ben zelf ook begonnen met programmeren op mijn 9e, het kan dus ook eerder.
+ - Het kan handig zijn om eerst de javascript cursus van CodeAcademy.org te doen, als je geen Engels spreekt, probeer dan echt alle oefeningen een voor een te doen. Mocht je nog nooit met HTML gewerkt hebben, doe dan ook de HTML cursus en de CSS-cursus.
 
 ## Beginnen
 
