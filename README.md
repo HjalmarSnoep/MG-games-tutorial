@@ -10,7 +10,7 @@ Feitelijk voor iedereen, die een game wil maken en Nederlands kan lezen. Ik zou 
 ## Beginnen
 
 ### Wat heb je nodig?
- - Een moderne browser, zoals Chrome
+ - Een moderne browser, zoals Chrome, Edge, Firefox, Safari. Wij raden Chrome aan voor een optimale ervaring.
  - Dit Archief, dowload het archief (.zip) met de groene knop en, unzip het in een folder waar je het terug kan vinden.
  - Een programma als Notepad++, in een noodgeval Notepad, maar het is handiger als je regelnummers voor je code hebt.
    Notepad++ is raden we aan, het is gratis, maar er zijn vele goede, gratis oplossingen, 
@@ -18,5 +18,7 @@ Feitelijk voor iedereen, die een game wil maken en Nederlands kan lezen. Ik zou 
  Dat is het.
  
 ### Wat moet ik nu doen?
-Ga naar de uitgepakte folder
-Now use a browser like Chrome to open 'Oefening1/index.html' in de folder die je net hebt gemaakt, en volg de instructies.
+Ga naar de uitgepakte folder, dubbelklik op 'Oefening1/index.html' of gebruik een browser als Chrome om 'Oefening1/index.html' te openen, door het bestand erin te slepen of het pad naar het bestand in de adresbalk van je browser te typen. 
+Je vind 'Oefening1/index.html' in de folder die je net hebt gemaakt.
+
+Volg daarna de instructies op het scherm.
