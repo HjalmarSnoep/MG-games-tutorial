@@ -11,7 +11,7 @@ Feitelijk voor iedereen, die een game wil maken en Nederlands kan lezen. Ik zou 
 
 ### Wat heb je nodig?
  - Een moderne browser, zoals Chrome, Edge, Firefox, Safari. Wij raden Chrome aan voor een optimale ervaring.
- - Dit Archief, dowload het archief (.zip) met de groene knop en, unzip het in een folder waar je het terug kan vinden.
+ - Dit Archief, dowload het archief (.zip) met de groene knop en druk op 'Download.zip'. Het archief komt in je downloadsfolder. Unzip het in een nieuwe folder waar je het terug kan vinden. Noem de folder 'MG-games-tutorial-Master'
  - Een programma als Notepad++, in een noodgeval Notepad, maar het is handiger als je regelnummers voor je code hebt.
    Notepad++ is raden we aan, het is gratis, maar er zijn vele goede, gratis oplossingen, 
    zoals sublimetext of Atom, welke je pakt is een kwestie van smaak.
