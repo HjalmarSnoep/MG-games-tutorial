@@ -5,8 +5,7 @@ We gaan een beginnetje maken aan onze game Engine. Om wat principes te verkennen
 ##### TIP
 > Dit stappenplan is wellicht makkelijker te lezen hier: 
 > https://github.com/HjalmarSnoep/MG-games-tutorial/blob/master/oefening1/stappen.md
-
-Je kunt ook gewoon met deze tekstfile blijven werken, er staat hetzelfde in.
+> Maar je kunt ook gewoon met deze tekstfile blijven werken, er staat hetzelfde in.
 
 Klik hier om te zien wat we gaan maken:  https://jsfiddle.net/sezvm5pu/
 Ga daarna door met stap1. Kom je er niet zelf uit, klik dan op de jsfiddle link om te kijken wat er bedoeld werd in deze stap,  
