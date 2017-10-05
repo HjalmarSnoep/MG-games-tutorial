@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+    body,html{
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+#test{
+  background-color: #ff0000;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+ left: 10px;
+ top: 10px;
+}
+
+#coin{
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}body,html{
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+#test{
+  background-color: #ff0000;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+ left: 10px;
+ top: 10px;
+}
+
+#coin{
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+  </style>
+
+  <title>KeyControlled Example, by Stijn Wieland</title>
+
+
+  
+</head>
+
+<body>
+  <div id="test">
+  player
+</div>
+  
+<div id="coin"> 
+ $
+</div>
+  
+<script type='text/javascript'>//<![CDATA[
+"use strict";
+var keyLeftDown = false;
+var keyUpDown = false;
+var keyRightDown = false;
+var keyDownDown = false;
+
+document.addEventListener("keydown", keyDownHandler, false);
+document.addEventListener("keyup", keyUpHandler, false);
+
+var viewport={};
+viewport.w=window.innerWidth;
+viewport.h=window.innerHeight;
+
+var sprite={};
+sprite.x=150;
+sprite.dx=0;
+sprite.y=150;
+sprite.dy=0;
+sprite.dom=document.getElementById("test");
+
+var coinSprite={};
+coinSprite.dom=document.getElementById("coin");
+coinSprite.dom.style.left=Math.floor(Math.random() * (viewport.w-20))+"px";
+coinSprite.dom.style.top=Math.floor(Math.random() * (viewport.h-20))+"px";
+
+loop();
+
+function loop()
+{
+  sprite.dom.style.left=sprite.x+"px";
+  sprite.dom.style.top=sprite.y+"px";
+  sprite.x=sprite.x+sprite.dx;
+  if(sprite.x>(viewport.w-100))
+  {
+	  sprite.dx=-Math.abs(sprite.dx);
+ 	 sprite.dx*=0.9;
+  }
+  if(sprite.x<0)
+  {
+	  sprite.dx=Math.abs(sprite.dx);
+ 	 sprite.dx*=0.9;
+  }
+  sprite.y=sprite.y+sprite.dy;
+  if(sprite.y>(viewport.h-100))
+  {
+  	sprite.y=(viewport.h-100);
+	  sprite.dy=-Math.abs(sprite.dy);
+ 	 sprite.dy*=0.9;
+  }
+  if(sprite.y<0)
+  {
+	  sprite.dy=Math.abs(sprite.dy);
+ 	 sprite.dy*=0.9;
+  }
+  if(keyLeftDown)
+  {
+    sprite.dx-=0.5;
+  }
+  if(keyUpDown)
+  {
+    sprite.dy-=0.5;
+  }
+  if(keyRightDown)
+  {
+    sprite.dx+=0.5;
+  }
+  if(keyDownDown)
+  {
+    sprite.dy+=0.5;
+  }
+  sprite.dy*=0.99;
+  sprite.dx*=0.99;
+  window.requestAnimationFrame(loop);
+}
+
+function keyDownHandler(ev)
+{
+ if(ev.keyCode == 37)
+ {
+   keyLeftDown = true;
+ }else if (ev.keyCode == 38)
+ {
+   keyUpDown = true;
+ }else if (ev.keyCode == 39)
+ {
+   keyRightDown = true;
+ }else if (ev.keyCode == 40)
+ {
+   keyDownDown = true;
+ }
+}
+
+function keyUpHandler(ev)
+{
+ if(ev.keyCode == 37)
+ {
+   keyLeftDown = false;
+ }else if (ev.keyCode == 38)
+ {
+   keyUpDown = false;
+ }else if (ev.keyCode == 39)
+ {
+   keyRightDown = false;
+ }else if (ev.keyCode == 40)
+ {
+   keyDownDown = false;
+ }
+}
+</script>
+<div style="color: #ccc;padding: 15px;"><a href="https://jsfiddle.net/1v994ne5/2/">JSFiddle door Stijn Wieland</a><br>Klik in de pagina en gebruik arrowkeys om de speler naar de munt te leiden.<div>
+</body>
+
+</html>
+
