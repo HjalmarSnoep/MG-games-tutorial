@@ -5,8 +5,8 @@ Daarna kun je aan de slag met de MakingGames Game Engine, waarmee je je eigen we
 
 ## Voor wie?
 Feitelijk voor iedereen, die een game wil maken en Nederlands kan lezen en een flinke portie doorzettingsvermogen. Ik zou zeggen vanaf 12 jaar, uitzonderingen daargelaten. Ik ben zelf ook begonnen met programmeren op mijn 9e, het kan dus ook eerder.
- - Het kan handig zijn om eerst de javascript cursus van CodeAcademy.org te doen, als je geen Engels spreekt, probeer dan echt alle oefeningen een voor een te doen. Mocht je nog nooit met HTML gewerkt hebben, doe dan ook de HTML cursus en de CSS-cursus.
- Wellicht voeg ik nog een oefening0 toe, waarin ik even door basis Javascript heenloop. Voor nu nog niet :)
+ - Het kan handig zijn om eerst de javascript cursus van CodeAcademy.org te doen, (in het Engels), probeer daar echt alle oefeningen één voor één te doen. Mocht je nog nooit met HTML gewerkt hebben, doe dan ook de HTML cursus en de CSS-cursus.
+ Wellicht voeg ik nog een oefening0 toe, waarin ik even door deze dingen heenloop. Voor nu nog niet :)
 
 ## Beginnen
 
