@@ -29,4 +29,4 @@ Ik zou zeggen vanaf 12 jaar, uitzonderingen daargelaten. Ik ben zelf ook begonne
 Ga naar de uitgepakte folder, dubbelklik op 'Oefening1/index.html' of gebruik een browser als Chrome om 'Oefening1/index.html' te openen, door het bestand erin te slepen of het pad naar het bestand in de adresbalk van je browser te typen. 
 Je vind 'Oefening1/index.html' in de folder die je net hebt gemaakt.
 
-Volg daarna de instructies op het scherm.
+Volg daarna de instructies in het bestand stappen.md voor iedere stap.
