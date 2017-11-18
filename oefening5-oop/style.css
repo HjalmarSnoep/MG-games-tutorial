@@ -1,0 +1,43 @@
+  body,html{
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+#player{
+  background-color: #ff0000;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+ left: 10px;
+ top: 10px;
+}
+
+#coin{
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}body,html{
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+#test{
+  background-color: #ff0000;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+ left: 10px;
+ top: 10px;
+}
+
+#coin{
+  background-color: yellow;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}

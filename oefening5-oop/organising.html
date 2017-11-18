@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Organising</title>
+</head>
+<body>
+<audio id="hit">
+  <source  src="hit.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+<div id="player">
+  player
+</div>
+  
+<div id="coin"> 
+ $
+</div>
+
+<div id="hud"></div>
+<script type='text/javascript' src="Sound.js"></script>
+<script type='text/javascript' src="Sprite.js"></script>
+<script type='text/javascript' src="Keys.js"></script>
+<script type='text/javascript' src="Viewport.js"></script>
+<script type='text/javascript' src="Hud.js"></script>
+<script type='text/javascript' src="Game.js"></script>
+<script>
+	var game=new Game();
+	game.start();
+</script>
+<div style="color: #ccc;padding: 15px;"><br>Klik in de pagina en gebruik arrowkeys om de speler naar de munt te leiden.<div>
+</body>
+
+</html>
+
