@@ -71,8 +71,7 @@ function loop(){
 }
 ```
 Als je nu op Run drukt doet, wordt het blokje weer 100px.. Hoe kan dat?
- onderaan de pagina, net voor he
-
+ 
 ##### Resultaat van deze stap:
 - https://jsfiddle.net/sezvm5pu/4/
 
